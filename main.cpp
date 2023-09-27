@@ -48,10 +48,10 @@ int main()
                 // string -> int with #include <cstdlib>
                 int inum = atoi(num.c_str());
                 //
-                cout << perevod(inum);
+                fout << perevod(inum);
                 num = "";
             }
-            cout << str[i];
+            fout << str[i];
         }
     }
     if (num != "")
